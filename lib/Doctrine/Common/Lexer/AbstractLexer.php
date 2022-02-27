@@ -160,7 +160,7 @@ abstract class AbstractLexer
     /**
      * Checks whether any of the given tokens matches the current lookahead.
      *
-     * @param string[] $tokens
+     * @param list<int|string> $tokens
      *
      * @return bool
      */
