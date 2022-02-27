@@ -28,7 +28,7 @@ class AbstractIntTokenLexerTest extends TestCase
     }
 
     /**
-     * @psalm-return list<array{string, list<array{value: string|int, type: string, position: int}>}>
+     * @psalm-return list<array{string, list<array{value: string|int, type: int, position: int}>}>
      */
     public function dataProvider(): array
     {
